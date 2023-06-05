@@ -5,6 +5,8 @@ class Admin::CategoriesController < ApplicationController
   
   def index
     @categories = Category.all.sort
+    # @category_count = Category.joins("JOIN products ON categories.id = category_id").where("categories.id": params[:id])
+
   end
 
   def new
