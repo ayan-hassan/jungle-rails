@@ -56,7 +56,29 @@ RSpec.describe User, type: :model do
       user4 = User.new(firstname: "firstname", lastname: "lastname", email: "email@TEST2.com", password: "123456", password_confirmation: "123456") 
       expect(user4).to_not be_valid
     end
+  end
 
+  describe ".authenticate_with_credentials" do
+    
+    it "user can be authenticated, returns user" do
+      user = User.new(firstname: "firstname", lastname: "lastname", email: "email@test.com", password: "123456", password_confirmation: "123456")
+      expect(User.authenticate_with_credentials("email@test.com", "123456")).to be_truthy.and have_attributes(:email => "email@test.com")
+    end
+  
+    it "email and password don't match a user" do 
+      user = User.new(firstname: "firstname", lastname: "lastname", email: "email@test.com", password: "123456", password_confirmation: "123456") 
+      expect(User.authenticate_with_credentials("email@test.com", "wrongpassword")).to be_nil
+    end
+
+    it "user authenticates even with wrong case for their email" do
+      user = User.new(firstname: "firstname", lastname: "lastname", email: "email@test.com", password: "123456", password_confirmation: "123456")
+      expect(User.authenticate_with_credentials("EmAiL@test.com", "123456")).to be_truthy.and have_attributes(:email => "email@test.com")
+    end
+
+    it "user authenticates even with white space around their email" do
+      user = User.new(firstname: "firstname", lastname: "lastname", email: "email@test.com", password: "123456", password_confirmation: "123456")
+      expect(User.authenticate_with_credentials("   email@test.com", "123456")).to be_truthy.and have_attributes(:email => "email@test.com")
+    end
   end
 
 end
