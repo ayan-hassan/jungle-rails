@@ -12,15 +12,15 @@ A mini e-commerce application built with Rails 6.1 for the Lighthouse Labs web d
 
 <em>Product details page</em>
 
-!["Screenshot of index of products"](https://github.com/ayan-hassan/jungle-rails/blob/master/docs/Screenshot%202023-06-07%20at%201.38.33%20PM.png?raw=true)
+!["Screenshot of product details page"](https://github.com/ayan-hassan/jungle-rails/blob/master/docs/Screenshot%202023-06-07%20at%201.38.33%20PM.png?raw=true)
 
 <em>'My Cart' page</em>
 
-!["Screenshot of index of products"](https://github.com/ayan-hassan/jungle-rails/blob/master/docs/Screenshot%202023-06-07%20at%201.38.52%20PM.png?raw=true)
+!["Screenshot of my cart page"](https://github.com/ayan-hassan/jungle-rails/blob/master/docs/Screenshot%202023-06-07%20at%201.38.52%20PM.png?raw=true)
 
 <em>Admin dashboard</em>
 
-!["Screenshot of index of products"](https://github.com/ayan-hassan/jungle-rails/blob/master/docs/Screenshot%202023-06-07%20at%201.40.01%20PM.png?raw=true)
+!["Screenshot of admin dashboard"](https://github.com/ayan-hassan/jungle-rails/blob/master/docs/Screenshot%202023-06-07%20at%201.40.01%20PM.png?raw=true)
 
 
 ## Setup
