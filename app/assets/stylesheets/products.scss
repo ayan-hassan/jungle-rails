@@ -19,6 +19,11 @@ main section.categories-show {
       grid-template-columns: 1fr;
     }
     article {
+      .soldout-badge{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
       .soldout {
         min-width: 110px;
         background: rgba(224, 14, 14, 0.8);
