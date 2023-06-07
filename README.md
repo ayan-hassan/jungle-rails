@@ -1,6 +1,27 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 for the Lighthouse Labs web development bootcamp.
+
+<em>Home Page</em>
+
+!["Screenshot of homepage"](https://github.com/ayan-hassan/jungle-rails/blob/master/docs/Screenshot%202023-06-07%20at%201.37.50%20PM.png?raw=true)
+
+<em>All products page</em>
+
+!["Screenshot of index of products"](https://github.com/ayan-hassan/jungle-rails/blob/master/docs/Screenshot%202023-06-07%20at%201.38.17%20PM.png?raw=true)
+
+<em>Product details page</em>
+
+!["Screenshot of index of products"](https://github.com/ayan-hassan/jungle-rails/blob/master/docs/Screenshot%202023-06-07%20at%201.38.33%20PM.png?raw=true)
+
+<em>'My Cart' page</em>
+
+!["Screenshot of index of products"](https://github.com/ayan-hassan/jungle-rails/blob/master/docs/Screenshot%202023-06-07%20at%201.38.52%20PM.png?raw=true)
+
+<em>Admin dashboard</em>
+
+!["Screenshot of index of products"](https://github.com/ayan-hassan/jungle-rails/blob/master/docs/Screenshot%202023-06-07%20at%201.40.01%20PM.png?raw=true)
+
 
 ## Setup
 
